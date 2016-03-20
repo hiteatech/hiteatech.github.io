@@ -1,5 +1,6 @@
 .academy-container{
   margin: 20px auto;
+  transition: all 0.5s;
 }
 
 .academy-background{
