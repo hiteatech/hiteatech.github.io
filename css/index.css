@@ -1,0 +1,65 @@
+/* CSS declarations go here */
+
+html, body{
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.abc{
+  height: 100%;
+  width: 100%;
+}
+
+.box {
+  border: 1px solid black;
+}
+
+.main{
+  background-color: #e57373;
+  height: 100%;
+  width: 50%;
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+
+.cover-bg{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, 0.1);
+  margin: 0px auto;
+  text-align: center;
+  transition: all 0.5s;
+  padding-top: 35%;
+}
+
+.cover-bg:hover{
+  background-color: rgba(255,255,255, 0.1);
+
+}
+
+.cover-bg img{
+  width: 100px;
+  height: 100px;
+  margin: 0% auto;
+}
+
+.main2 .cover-bg img{
+  width: 150px;
+  height: 100px;
+}
+
+.cover-bg h3{
+  display: inline-block;
+  transition: all 0.5s;
+}
+
+.cover-bg h3:hover {
+  font-size: 60px;
+}
+
+.main2{
+  background-color: #03a9f4;
+
+}

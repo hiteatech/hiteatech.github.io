@@ -1,0 +1,59 @@
+.academy-container{
+  margin: 20px auto;
+}
+
+.academy-background{
+  background-color: white;
+}
+
+.navbar-color{
+  background-color: white !important;
+  height: 100px;
+  line-height: 100px;
+
+}
+
+.navbar-color a {
+  color: #EE6E73;
+}
+
+#nav-mobile a{
+  color: #34495e;
+  font-weight: bold;
+}
+
+.nav-logo{
+  width: 80px;
+  height: 80px;
+  margin-top: 10px;
+}
+
+.box{
+  border: 1px solid black;
+}
+
+.block{
+  display: block;
+}
+.no-block {
+  display: inline-block;
+}
+
+.card-image img {
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+
+
+}
+
+.action-box p{
+  margin: 0px;
+}
+
+.float-right{
+  float: right;
+}
+
+.page-footer {
+  margin-top: 0px;
+}
