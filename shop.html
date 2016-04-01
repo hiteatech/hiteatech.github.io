@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/academy.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/shop.css"  media="screen,projection"/>
+    <title>Hi Tea Online Store</title>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <div class="academy-background">
+      <nav class="navbar-color">
+        <div class="container">
+          <div class="nav-wrapper ">
+            <a href="index.html" class="brand-logo center">
+              <img src="image/logo.png" alt="" class="nav-logo">
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="academy.html">Hi-Tea Academy </a></li>
+              <li><a href=shop.html>Online Store</a></li>
+              <li><i class="large material-icons">shopping_cart</i></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container shop-container">
+        <div class="jumbotron">
+          <div class="col l12 s12">
+            <div class="card">
+              <div class="row product-detail">
+                <div class="col l8 s12 product-image">
+                  <div class="card-image">
+                    <img src="image/shirt.jpeg">
+                  </div>
+                </div>
+                <div class="col l4 s12 product-description">
+
+                  <h3>Hi-Tea Tech T-Shirt</h3>
+                  <p>RM20.00</p>
+                  <a class="waves-effect waves-light btn btn-large btn-order"><i class="material-icons left">store</i>Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col l4 m6 s12">
+            <div class="card">
+                <a href="itemDetail.html" disabled>
+                  <div class="card-image">
+                    <img src="image/soon.jpg">
+                  </div>
+                </a>
+                <div class="card-action action-box">
+                  <p class="no-block">Badge Strap</p>
+                  <p>RMxx.xx</p>
+                </div>
+            </div>
+          </div>
+
+        		<div class="col l4 m6 s12">
+                <div class="card">
+                    <a href="itemDetail.html" disabled>
+      			          <div class="card-image">
+                        <img src="image/soon.jpg">
+                      </div>
+      			        </a>
+                    <div class="card-action action-box">
+                      <p class="no-block">Badge Strap</p>
+      				        <p>RMxx.xx</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 m6 s12">
+                <div class="card">
+                    <a href="itemDetail.html" disabled>
+                      <div class="card-image">
+                        <img src="image/soon.jpg">
+                      </div>
+                    </a>
+                    <div class="card-action action-box">
+                      <p class="no-block">Badge Strap</p>
+                      <p>RMxx.xx</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">My Hi Tea Tech</h5>
+              <p class="grey-text text-lighten-4">
+                My Hi Tech is a non-profit activities that provides free learning courses to all FTMK students.
+                This event is orgarnized by FICTS and run by FTMK students.
+                <br><br>
+                Any passionate students or lectures that willing to share their experience and knowledge is welcomed to
+                be the instructor to teach students.
+              </p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Social Networks</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/FICTS-UTeM-365022793705325/?fref=ts">FICTS Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/fictsutem/">FICTS Instagram</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://twitter.com/twt_FICTs?lang=en">FICTS Twitter</a></li>
+                <li><a class="grey-text text-lighten-3" href="http://ftmk.utem.edu.my/web/">FTMK Websites</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+          </div>
+        </div>
+      </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+			$('.modal-trigger').leanModal();
+		});
+		$(document).ready(function() {
+			$('select').material_select();
+		});
+	</script>
+  </body>
+</html>

@@ -40,11 +40,9 @@
   display: inline-block;
 }
 
-.card-image img {
+.card-image img.blur {
   filter: blur(1px);
   -webkit-filter: blur(1px);
-
-
 }
 
 .action-box p{
