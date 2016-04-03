@@ -1,29 +1,16 @@
+
 .shop-container{
   margin-top: 50px;
 }
 
 .product-detail{
-
-}
-
-.product-image{
-
+  background-color: #F6F6F6;
+  margin-bottom: 20px !important;
 }
 
 .product-description{
-
-  color: #2c3e50;
-  text-align: right;
-  padding: 0px !important;
-  padding-right: 25px !important;
-
-}
-
-
-.product-description h3{
-
-}
-
-.btn-order{
-  margin-bottom: 20px;
+  padding: 0px;
+  margin-top: 10%;
+  display: inline-block;
+  text-align: center;
 }

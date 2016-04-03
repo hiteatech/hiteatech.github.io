@@ -1,0 +1,25 @@
+.shirt-title-div {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  color: #444444;
+  padding-top: 20px;
+}
+
+
+
+.shirt-title-div p:first-child {
+  font-size: 24px;
+  line-height: 25px;
+  margin: 0px;
+  border: 1px solid black;
+}
+
+
+.shirt-title-div p:nth-child(2){
+  color: #848484;
+  font-size: 16px;
+  margin-top: 5px;
+  border: 1px solid black;
+
+}
