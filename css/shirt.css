@@ -42,6 +42,39 @@
 }
 
 .main-image img {
-
   width:70%;
+}
+
+.box-container{
+
+  margin-top: 40px ;
+}
+
+.intro-img img{
+  width: 100%;
+}
+
+.intro-title {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 30px;
+
+}
+
+.intro-title p:first-child{
+  color: #444444;
+  font-size: 19px;
+  line-height: 26px;
+}
+
+.intro-title p:nth-child(2){
+  color: #848484;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.color-container {
+  height: 500px;
+  background-color: #5D0F0D;
+  color: white
 }
