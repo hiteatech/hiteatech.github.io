@@ -24,6 +24,13 @@
 
 }
 
+.fixed-top{
+  position: fixed;
+  top: 0px;
+  margin-top: 0px;
+  z-index: 1000;
+}
+
 .box{
   border: 1px solid black;
 }
@@ -76,9 +83,15 @@
 .color-container {
   background-color: #5D0F0D;
   color: white;
-  padding: 20px 10%;
+  padding: 20px;
   margin-top: 30px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+}
+
+.color-container p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
 }
 
 .madeby-container{
@@ -105,6 +118,7 @@
 .size-container{
   text-align: center;
   margin-top: 100px ;
+  margin-bottom: 100px ;
 }
 
 .size-box{
@@ -126,4 +140,31 @@
   font-size: 24px;
   line-height: 100px;
 
+}
+
+.size-modal{
+  z-index: 10000;
+}
+
+#buynow{
+  background-color: #455a64;
+  padding: 20px 0px 20px 0px;
+}
+
+.buynow-container h3{
+  text-align: center;
+  color: white;
+}
+
+.card-content .buynow-title{
+  color: #212121 !important;
+  font-size: 24px !important;
+  line-height: 25px !important;
+  margin: 0px !important;
+}
+
+.card-content .buynow-descrption{
+  color: #848484 !important;
+  font-size: 16px !important;
+  margin-top: 5px !important;
 }
