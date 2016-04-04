@@ -4,6 +4,8 @@
   background-color: white;
   color: #444444;
   padding-top: 20px;
+  margin-top: 10px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 
@@ -12,7 +14,6 @@
   font-size: 24px;
   line-height: 25px;
   margin: 0px;
-  border: 1px solid black;
 }
 
 
@@ -20,6 +21,27 @@
   color: #848484;
   font-size: 16px;
   margin-top: 5px;
-  border: 1px solid black;
 
+}
+
+.box{
+  border: 1px solid black;
+}
+
+.main-card{
+  box-shadow: none;
+  margin: auto 0px !important;
+  text-align: center;
+}
+
+.main-card:hover{
+  box-shadow: none;
+}
+
+.main-image{
+}
+
+.main-image img {
+
+  width:70%;
 }
