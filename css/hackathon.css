@@ -3,13 +3,11 @@ body{
   color: #292B36;
 }
 .gotop{
-  display: none;
   height: 100px;
   width: 100px;
   padding: 0px;
-  position: fixed;
-  right:5%;
-  bottom:5%;
+  margin-top: 20px;
+  /* position: fixed; */
 }
 
 .gotop-small{
@@ -22,6 +20,10 @@ body{
   float: left;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   transition: all 0.2s;
+}
+
+.video-container {
+  margin: 10px 0px;
 }
 
 .gotop-small p{
@@ -110,6 +112,7 @@ body{
 
 #introduction h2{
   color: white;
+
 }
 
 .introduction-box{
@@ -119,6 +122,10 @@ body{
 
 .introduction-box p{
   font-size: 1.5em;
+}
+
+.about-hack{
+  color: white;
 }
 
 #faq {
@@ -242,6 +249,10 @@ tr td:last-child p {
 
   .row .col img{
     width: 200px;
+  }
+
+  .about-hack{
+    margin-top: 100px;
   }
 
 }
