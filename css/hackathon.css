@@ -1,5 +1,6 @@
 body{
   font-family: 'Inconsolata', Arial, serif; font-weight: 400;
+  color: #292B36;
 }
 .gotop{
   display: none;
@@ -42,7 +43,7 @@ body{
 }
 
 .nav-color{
-  background-color: #292B36;;
+  background-color: #292B36;
   position: fixed;
   box-shadow: none;
 }
@@ -149,9 +150,10 @@ body{
   padding: 50px 0px 50px 0px;
 }
 
-##schedule-box{
+#schedule-box{
   padding: 20px !important;
   border: 3px solid white;
+  margin-top: 50px;
 }
 
 .schedule {
