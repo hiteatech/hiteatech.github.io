@@ -36,6 +36,19 @@
   border: 1px solid black;
 }
 
+
+
+#over {
+  background-color: #00897b;
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
+#over p {
+  margin: 0px;
+}
+
 .main-card{
   box-shadow: none;
   margin: auto 0px !important;
