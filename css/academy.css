@@ -58,6 +58,56 @@ body{
 
 }
 
+.special {
+  background-color: #1abc9c;
+  color: white;
+  padding-top: 5px;
+}
+
+.special-event{
+  margin: 0px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.special-title{
+  margin: 0px;
+  padding: 5px 0px;
+  border-bottom: 3px solid white;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.invited{
+
+}
+
+.speaker-list{
+  list-style-type: circle;
+  margin: 0px;
+  color: #34495e;
+}
+
+.speaker-list li{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+}
+
+.speaker-list li p{
+  margin: 0px;
+  width: 200px;
+}
+
+.speaker-list li p:first-child{
+  color: white;
+  font-weight: bold;
+}
+
 .box{
   border: 1px solid black;
 }
