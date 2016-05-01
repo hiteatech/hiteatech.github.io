@@ -64,6 +64,33 @@ body{
   padding-top: 5px;
 }
 
+.jumbotron{
+  background-image: url('../image/talk.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0px;
+  color: white;
+}
+
+.jumbotron .container p:first-child{
+  font-weight: 300;
+  text-shadow: rgba(0, 0, 0, 0.247059) 0px 1px 1px, rgba(0, 0, 0, 0.74902) 0px 1px 30px;
+}
+
+.jumbotron .container p:first-child{
+  font-size: 50px;
+  margin-bottom: 0px;
+  letter-spacing: 2px;
+  text-shadow: rgba(0, 0, 0, 0.247059) 0px 1px 1px, rgba(0, 0, 0, 0.74902) 0px 1px 30px;
+}
+
+.jumbotron .container p:nth-child(2){
+  font-size: 20px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  line-height: 26px;
+}
+
 .special-event{
   margin: 0px;
   margin-top: 10px;
