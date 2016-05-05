@@ -210,6 +210,16 @@ tr td:last-child p {
   border-top: 2px solid white;
 }
 
+.logo-img{
+  width: 50%;
+  text-align: center;
+}
+
+.logo-img2 {
+  width: 90%;
+  margin-top: 20px;
+  text-align: center;
+}
 
 #sponsor{
   background-color: white;
@@ -236,6 +246,10 @@ tr td:last-child p {
 }
 
 @media (max-width: 767px) {
+  #sponsor{
+    text-align: center;
+  }
+
   .background img {
     width: 100%;
   }
