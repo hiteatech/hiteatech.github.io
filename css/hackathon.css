@@ -210,6 +210,17 @@ tr td:last-child p {
   border-top: 2px solid white;
 }
 
+#prize {
+  background-color: #292B36;
+  color: white;
+  padding: 50px 0px 50px 0px;
+}
+
+.prize-card {
+  padding: 20px;
+  color: #292B36;
+}
+
 .logo-img{
   width: 50%;
   text-align: center;
