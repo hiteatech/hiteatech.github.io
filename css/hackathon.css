@@ -147,10 +147,6 @@ body{
   color: #888;
 }
 
-
-
-
-
 #schedule{
   background-color: #26a69a ;
   color: white;
@@ -273,9 +269,7 @@ tr td:last-child p {
     margin-top: 30px;
   }
 
-  .row .col img{
-    width: 200px;
-  }
+
 
   .about-hack{
     margin-top: 100px;
