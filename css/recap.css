@@ -69,3 +69,45 @@ html, body{
     padding-top: 10px;
   }
 }
+
+/* JUDGE SECTION*/
+#judgeContainer{
+  text-align: center;
+}
+
+#judgeContainer p{
+  font-size: 20px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#judgeContainer h4{
+  text-decoration: underline;
+}
+
+#judgeContainer img{
+  display: block;
+  margin: 0 auto;
+  width: 256px;
+  height: 256px;
+}
+
+/* TEAM SECTION*/
+#teamContainer{
+  text-align: center;
+  background-color: rgba(33,145,135,0.5);
+}
+
+#teamContainer h4:first-child{
+  padding: 50px 0;
+}
+
+#teamContainer img{
+  border-radius: 100%;
+  width: 225px;
+  height: 225px;
+}
+
+#teamContainer .row{
+  padding-bottom: 60px; 
+}
