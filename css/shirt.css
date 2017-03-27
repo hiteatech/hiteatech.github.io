@@ -88,10 +88,11 @@
   line-height: 26px;
 }
 
-.intro-title p:nth-child(2){
+.intro-title p{
   color: #848484;
   font-size: 16px;
   line-height: 24px;
+  text-align: justify;
 }
 
 .color-container {
