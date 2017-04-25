@@ -19,7 +19,7 @@
 ## Create your pull request
 
 
-#Thing To do
+# Thing To do
 ======
 1. Create a website for The Hack (After event)
 
